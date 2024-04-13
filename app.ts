@@ -11,11 +11,11 @@ app.use(express.json());
 // ROUTES:- 
 
 // Admin Routes
-import adminRoutes from "./src/routes/admin/index.routes";
+import adminRoutes from "./routes/admin/index.routes";
 app.use('/api/admin', adminRoutes);
 
 // User Routes
-import usersRoute from "./src/routes/user/index.routes";
+import usersRoute from "./routes/user/index.routes";
 app.use('/api/user', usersRoute);
 
 // DATABASE COLLECTION

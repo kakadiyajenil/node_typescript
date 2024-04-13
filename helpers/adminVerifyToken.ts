@@ -1,6 +1,6 @@
 // import jwt, { JwtPayload } from "jsonwebtoken";
 import jwt from 'jsonwebtoken';
-import User from "../../src/model/user.model";
+import User from "../model/user.model";
 import { Request, Response, NextFunction } from 'express';
 
 

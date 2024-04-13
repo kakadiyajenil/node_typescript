@@ -11,7 +11,7 @@ export default class ReviewService {
     getAllReview = async (query: any) => {
         let product = query.productId && query.productId !== "" ? [
             {
-                $match: { product: new mongoose.Types.ObjectId(query.productId) }
+                $match: {product: new mongoose.Types.ObjectId(query.productId) }
             }
         ] : [];
         let find = [
